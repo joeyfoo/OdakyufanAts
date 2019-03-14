@@ -1,0 +1,406 @@
+body {
+	color : black;
+	font-family : sans-serif;
+	font-size : 13px;
+	margin : 0px auto 0px auto;
+	max-width : 960px;
+	padding : 20px 20px 20px 20px;
+	background-image : url(../background.png);
+}
+h1 {
+	font-family : "Georgia", serif;
+	font-size : 30px;
+	font-weight : bold;
+	margin : 10px 0px 10px 0px;
+	color : #17a;
+}
+h2 {
+	font-family : "Georgia", serif;
+	font-size : 16px;
+	font-weight : bold;
+	color : white;
+	padding : 5px 5px 5px 10px;
+	margin : 30px 00px 0px 0px;
+	background-color : #17a;
+	border-radius : 8px;
+}
+h3 {
+	font-family : "Georgia", serif;
+	font-size : 14px;
+	font-weight : bold;
+	color : #17a;
+	margin : 20px 0px 10px 0px;
+}
+div {
+	margin : 10px 0px 10px 0px;
+	line-height : 17px;
+}
+.contents {
+	padding : 10px 10px 10px 35px;
+	text-align : left;
+	border-collapse : collapse;
+	border : 1px solid #17a;
+}
+.external {
+	background-image: url(external-link.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	padding-right: 14px;
+}
+.large {
+	font-family : "Georgia", serif;
+	font-weight : bold;
+	font-size : 15px;
+}
+
+/* ---------- *
+ * Menu table *
+ * ---------- */
+
+.table-menu {
+	font-family : "Georgia", serif;
+	padding : 0px 0px 0px 0px;
+	margin : 0px 0px 0px 0px;
+	text-align : left;
+	border-collapse : collapse;
+	width : 100%;
+}
+.table-menu th {
+	font-size : 24px;
+	font-weight : bold;
+	padding : 5px 10px 5px 10px;
+	margin : 0px 0px 0px 0px;
+	background : #17a;
+	border-top : 1px solid white;
+	border-bottom : 1px solid white;
+	border-left : 1px solid white;
+	border-right : 1px solid white;
+	color : white;
+}
+.table-menu tbody td {
+	padding : 0px 0px 0px 0px;
+	margin : 0px 0px 0px 0px;
+	background : white;
+	line-height : 0px;
+	border-right : 1px solid white;
+}
+.table-menu tfoot td {
+	font-size : 13px;
+	font-weight : normal;
+	padding : 5px 10px 5px 10px;
+	margin : 0px 0px 0px 0px;
+	background : #17a;
+	border-top : 1px solid white;
+	border-bottom : 1px solid white;
+	border-left : 1px solid white;
+	border-right : 1px solid white;
+	color : white;
+}
+.table-menu a {
+	color : white;
+	text-decoration : none;
+}
+.table-menu a:hover {
+	text-decoration : underline;
+}
+
+/* ---------------------- *
+ * Plain horizontal table *
+ * ---------------------- */
+
+.table-plain-h {
+	margin : 5px 0px 5px 0px;
+	border-collapse : collapse;
+	text-align : left;
+	font-size : 12px;
+}
+.table-plain-h th {
+	font-size : 14px;
+	font-weight : normal;
+	padding : 5px 15px 5px 15px;
+	border-bottom : 1px solid #17a;
+}
+.table-plain-h tbody td {
+	border-top : 1px solid #17a;
+	border-bottom : 1px solid #17a;
+	padding : 5px 15px 5px 15px;
+}
+.table-plain-h tfoot td {
+	padding : 5px 15px 5px 15px;
+	border-top : 1px solid #17a;
+	font-size : 11px;
+}
+
+/* -------------------- *
+ * Plain vertical table *
+ * -------------------- */
+
+.table-plain-v {
+	margin : 5px 0px 5px 0px;
+	text-align : left;
+	border-collapse : collapse;
+	font-size : 12px;
+	text-align : center;
+}
+.table-plain-v th {
+	padding : 5px 15px 5px 15px;
+	font-weight : normal;
+	font-size : 14px;
+	border-left : 1px solid #17a;
+	border-right : 1px solid #17a;
+}
+.table-plain-v tbody td {
+	padding : 5px 15px 5px 15px;
+	border-left : 1px solid #17a;
+	border-right : 1px solid #17a;
+}
+.table-plain-v tfoot td {
+	padding : 5px 15px 5px 15px;
+	border-left : 1px solid #17a;
+	border-right : 1px solid #17a;
+	font-size : 11px;
+}
+
+/* ---------------------- *
+ * Horizontal zebra table *
+ * ---------------------- */
+
+.table-zebra-h {
+	margin : 5px 0px 5px 0px;
+	text-align : left;
+	border-collapse : collapse;
+	font-size : 12px;
+}
+.table-zebra-h th {
+	font-size : 14px;
+	font-weight : normal;
+	padding : 5px 10px 5px 10px;
+}
+.table-zebra-h tbody td {
+	padding : 5px 10px 5px 10px;
+}
+.table-zebra-h tfoot td {
+	padding : 5px 10px 5px 10px;
+	font-size : 11px;
+}
+.table-zebra-h .odd {
+	background-color : rgba(15,116,172,0.10);
+}
+
+/* -------------------- *
+ * Vertical zebra table *
+ * -------------------- */
+
+.table-zebra-v {
+	margin : 5px -6px 5px -6px;
+	text-align : left;
+	font-size : 12px;
+	border-spacing : 6px 0px;
+}
+.table-zebra-v th {
+	font-size : 14px;
+	font-weight : normal;
+	padding : 5px 10px 5px 10px;
+}
+.table-zebra-v tbody td {
+	padding : 5px 10px 5px 10px;
+	border-width : 0px;
+}
+.table-zebra-v tfoot td {
+	padding : 5px 10px 5px 10px;
+	font-size : 11px;
+	border-width : 0px;
+}
+.table-zebra-v .colodd {
+	background-color : rgba(15,116,172,0.10);
+}
+
+/* ---------------- *
+ * One-column table *
+ * ---------------- */
+
+.table-one-column {
+	margin : 5px 0px 5px 0px;
+	text-align : left;
+	border-collapse : collapse;
+	font-size : 12px;
+}
+.table-one-column th {
+	font-size : 14px;
+	font-weight : normal;
+	padding : 4px 10px 4px 10px;
+}
+.table-one-column tbody td {
+	padding : 4px 10px 4px 10px;
+	border-top : 1px solid #17a;
+	border-bottom : 1px solid #17a;
+}
+.table-one-column tfoot td {
+	font-size : 11px;
+	padding : 4px 10px 4px 10px;
+	border-top : 1px solid #17a;
+}
+.table-one-column .first {
+	background-color : rgba(15,116,172,0.10);
+}
+
+/* -------------------- *
+ * Horizontal box table *
+ * -------------------- */
+
+.table-box-h {
+	margin : 5px 0px 5px 0px;
+	text-align : left;
+	border-collapse : collapse;
+	border : 1px solid #17a;
+	border-left : 7px solid #17a;
+	border-right : 7px solid #17a;
+	font-size : 12px;
+}
+.table-box-h th {
+	font-size : 13px;
+	font-weight : normal;
+	padding : 5px 10px 5px 10px;
+	border-bottom : 1px solid #17a;
+	background-color : rgba(15,116,172,0.10);
+}
+.table-box-h td {
+	padding : 5px 10px 5px 10px;
+}
+.table-box-h tbody td {
+	border-bottom : 1px solid #17a;
+}
+.table-box-h tfoot td {
+	font-size : 11px;
+	padding : 5px 10px 5px 10px;
+	border-bottom : 1px solid #17a;
+	background-color : rgba(15,116,172,0.10);
+}
+
+/* ------------------ *
+ * Vertical box table *
+ * ------------------ */
+
+.table-box-v {
+	margin : 3px 0px 3px 0px;
+	text-align : center;
+	border-collapse : collapse;
+	border-top : 7px solid #17a;
+	border-bottom : 7px solid #17a;
+	font-size : 12px;
+}
+.table-box-v th {
+	font-size : 13px;
+	font-weight : normal;
+	padding : 5px 10px 5px 10px;
+	background : rgba(15,116,172,0.10);
+	border-right : 1px solid #17a;
+	border-left : 1px solid #17a;
+}
+.table-box-v thead tr {
+	border-bottom : 1px solid #17a;
+}
+.table-box-v tbody td {
+	padding : 5px 10px 5px 10px;
+	border-right : 1px solid #17a;
+	border-left : 1px solid #17a;
+}
+.table-box-v tfoot td {
+	font-size : 11px;
+	padding : 5px 10px 5px 10px;
+	background : rgba(15,116,172,0.10);
+	border-right : 1px solid #17a;
+	border-left : 1px solid #17a;
+}
+.table-box-v tfoot tr {
+	border-top : 1px solid #17a;
+}
+
+/* ---------- *
+ * Grid table *
+ * ---------- */
+
+.table-grid {
+	margin : 5px 0px 5px 0px;
+	text-align : left;
+	border-collapse : collapse;
+	border : 1px solid white;
+	font-size : 12px;
+}
+.table-grid th {
+	font-size : 13px;
+	font-weight : normal;
+	padding : 5px 10px 5px 10px;
+	background : rgba(15,116,172,0.10);
+	border-top : 1px solid #17a;
+	border-bottom : 1px solid #17a;
+	border-left : 1px solid #17a;
+	border-right : 1px solid #17a;
+}
+.table-grid td {
+	padding : 5px 10px 5px 10px;
+	border-top : 1px solid #17a;
+	border-bottom : 1px solid #17a;
+	border-left : 1px solid #17a;
+	border-right : 1px solid #17a;
+}
+.table-grid tfoot td {
+	font-size : 11px;
+	padding : 5px 10px 5px 10px;
+	background : rgba(15,116,172,0.10);
+	border-top : 1px solid #17a;
+	border-bottom : 1px solid #17a;
+	border-left : 1px solid #17a;
+	border-right : 1px solid #17a;
+}
+
+/* --------------- *
+ * Newspaper table *
+ * --------------- */
+
+.table-newspaper {
+	margin : 5px 0px 5px 0px;
+	text-align : left;
+	border-collapse : collapse;
+	border : 1px solid #17a;
+	font-size : 12px;
+}
+.table-newspaper th {
+	padding : 5px 10px 5px 10px;
+	font-weight : normal;
+	font-size : 14px;
+}
+.table-newspaper tbody {
+	background : rgba(15,116,172,0.10);
+}
+.table-newspaper td {
+	padding : 5px 10px 5px 10px;
+}
+.table-newspaper tfoot td {
+	font-size : 10px;
+	padding : 5px 10px 5px 10px;
+}
+
+/* ------------ *
+ * Plain bullet *
+ * ------------ */
+
+.bullet-plain {
+	list-style-type: disc;
+	list-style-position: outside;
+	line-height: 16px;
+	color: #17a;
+}
+
+.bullet-plain li {
+	padding: 1px 0px 1px 0px;
+	margin: 0px 0px 0px -10px;
+}
+
+.bullet-plain ul li {
+	list-style-type: square;
+}
+
+.bullet-plain ul li ul li {
+	list-style-type: circle;
+}
